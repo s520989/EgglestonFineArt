@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		70601DBA1DB8070C00B7D7A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70601DB91DB8070C00B7D7A9 /* AppDelegate.swift */; };
-		70601DBC1DB8070C00B7D7A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70601DBB1DB8070C00B7D7A9 /* ViewController.swift */; };
+		70601DBC1DB8070C00B7D7A9 /* PaintingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70601DBB1DB8070C00B7D7A9 /* PaintingInfoViewController.swift */; };
 		70601DBF1DB8070C00B7D7A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70601DBD1DB8070C00B7D7A9 /* Main.storyboard */; };
 		70601DC11DB8070C00B7D7A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70601DC01DB8070C00B7D7A9 /* Assets.xcassets */; };
 		70601DC41DB8070C00B7D7A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70601DC21DB8070C00B7D7A9 /* LaunchScreen.storyboard */; };
 		70601DCF1DB8070C00B7D7A9 /* EgglestonFineArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70601DCE1DB8070C00B7D7A9 /* EgglestonFineArtTests.swift */; };
 		70601DDA1DB8070C00B7D7A9 /* EgglestonFineArtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70601DD91DB8070C00B7D7A9 /* EgglestonFineArtUITests.swift */; };
+		707FC9F21DB80DC6003A1F83 /* CulturalAttractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707FC9EF1DB80DC6003A1F83 /* CulturalAttractions.swift */; };
+		707FC9F31DB80DC6003A1F83 /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707FC9F01DB80DC6003A1F83 /* Museum.swift */; };
+		707FC9F41DB80DC6003A1F83 /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707FC9F11DB80DC6003A1F83 /* Painting.swift */; };
+		707FC9F61DB80ED6003A1F83 /* CulturalAttractionsTableViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707FC9F51DB80ED6003A1F83 /* CulturalAttractionsTableViewTableViewController.swift */; };
+		707FC9F81DB80EE4003A1F83 /* PaintingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707FC9F71DB80EE4003A1F83 /* PaintingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		70601DB61DB8070C00B7D7A9 /* EgglestonFineArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EgglestonFineArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70601DB91DB8070C00B7D7A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70601DBB1DB8070C00B7D7A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70601DBB1DB8070C00B7D7A9 /* PaintingInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingInfoViewController.swift; sourceTree = "<group>"; };
 		70601DBE1DB8070C00B7D7A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70601DC01DB8070C00B7D7A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70601DC31DB8070C00B7D7A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		70601DD51DB8070C00B7D7A9 /* EgglestonFineArtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgglestonFineArtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70601DD91DB8070C00B7D7A9 /* EgglestonFineArtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgglestonFineArtUITests.swift; sourceTree = "<group>"; };
 		70601DDB1DB8070C00B7D7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707FC9EF1DB80DC6003A1F83 /* CulturalAttractions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CulturalAttractions.swift; sourceTree = "<group>"; };
+		707FC9F01DB80DC6003A1F83 /* Museum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
+		707FC9F11DB80DC6003A1F83 /* Painting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		707FC9F51DB80ED6003A1F83 /* CulturalAttractionsTableViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CulturalAttractionsTableViewTableViewController.swift; sourceTree = "<group>"; };
+		707FC9F71DB80EE4003A1F83 /* PaintingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				70601DB91DB8070C00B7D7A9 /* AppDelegate.swift */,
-				70601DBB1DB8070C00B7D7A9 /* ViewController.swift */,
+				70601DBB1DB8070C00B7D7A9 /* PaintingInfoViewController.swift */,
+				707FC9F51DB80ED6003A1F83 /* CulturalAttractionsTableViewTableViewController.swift */,
+				707FC9F71DB80EE4003A1F83 /* PaintingsTableViewController.swift */,
 				70601DBD1DB8070C00B7D7A9 /* Main.storyboard */,
 				70601DC01DB8070C00B7D7A9 /* Assets.xcassets */,
 				70601DC21DB8070C00B7D7A9 /* LaunchScreen.storyboard */,
 				70601DC51DB8070C00B7D7A9 /* Info.plist */,
+				707FC9EF1DB80DC6003A1F83 /* CulturalAttractions.swift */,
+				707FC9F01DB80DC6003A1F83 /* Museum.swift */,
+				707FC9F11DB80DC6003A1F83 /* Painting.swift */,
 			);
 			path = EgglestonFineArt;
 			sourceTree = "<group>";
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70601DBC1DB8070C00B7D7A9 /* ViewController.swift in Sources */,
+				70601DBC1DB8070C00B7D7A9 /* PaintingInfoViewController.swift in Sources */,
+				707FC9F21DB80DC6003A1F83 /* CulturalAttractions.swift in Sources */,
+				707FC9F61DB80ED6003A1F83 /* CulturalAttractionsTableViewTableViewController.swift in Sources */,
+				707FC9F41DB80DC6003A1F83 /* Painting.swift in Sources */,
 				70601DBA1DB8070C00B7D7A9 /* AppDelegate.swift in Sources */,
+				707FC9F81DB80EE4003A1F83 /* PaintingsTableViewController.swift in Sources */,
+				707FC9F31DB80DC6003A1F83 /* Museum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +502,7 @@
 				70601DE01DB8070C00B7D7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70601DE11DB8070C00B7D7A9 /* Build configuration list for PBXNativeTarget "EgglestonFineArtTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				70601DE31DB8070C00B7D7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70601DE41DB8070C00B7D7A9 /* Build configuration list for PBXNativeTarget "EgglestonFineArtUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				70601DE61DB8070C00B7D7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
